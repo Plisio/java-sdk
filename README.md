@@ -1,7 +1,7 @@
-# Plisio Java SDK
+# plisio-java-sdk
 
 Plisio API
-- API version: 1.0 (build for java 11)
+- API version: 1.0 (build for Java7)
 
 Plisio payment gateway API
 
