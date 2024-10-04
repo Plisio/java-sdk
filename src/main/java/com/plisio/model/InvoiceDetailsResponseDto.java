@@ -121,7 +121,7 @@ public class InvoiceDetailsResponseDto {
 
   public InvoiceDetailsResponseDto addAllowedPsysCidsItem(InvoicePaysysDto allowedPsysCidsItem) {
     if (this.allowedPsysCids == null) {
-      this.allowedPsysCids = new ArrayList<InvoicePaysysDto>();
+      this.allowedPsysCids = new ArrayList<>();
     }
     this.allowedPsysCids.add(allowedPsysCidsItem);
     return this;

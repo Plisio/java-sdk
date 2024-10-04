@@ -317,7 +317,7 @@ public class OperationDto {
 
   public OperationDto addSendmanyItem(String sendmanyItem) {
     if (this.sendmany == null) {
-      this.sendmany = new ArrayList<String>();
+      this.sendmany = new ArrayList<>();
     }
     this.sendmany.add(sendmanyItem);
     return this;
@@ -469,7 +469,7 @@ public class OperationDto {
 
   public OperationDto addTxIdItem(String txIdItem) {
     if (this.txId == null) {
-      this.txId = new ArrayList<String>();
+      this.txId = new ArrayList<>();
     }
     this.txId.add(txIdItem);
     return this;
@@ -585,7 +585,7 @@ public class OperationDto {
 
   public OperationDto addTxItem(Object txItem) {
     if (this.tx == null) {
-      this.tx = new ArrayList<Object>();
+      this.tx = new ArrayList<>();
     }
     this.tx.add(txItem);
     return this;

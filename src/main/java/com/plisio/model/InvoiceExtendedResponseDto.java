@@ -384,7 +384,7 @@ public class InvoiceExtendedResponseDto extends InvoiceSimpleResponseDto {
 
   public InvoiceExtendedResponseDto addTxIdItem(String txIdItem) {
     if (this.txId == null) {
-      this.txId = new ArrayList<String>();
+      this.txId = new ArrayList<>();
     }
     this.txId.add(txIdItem);
     return this;

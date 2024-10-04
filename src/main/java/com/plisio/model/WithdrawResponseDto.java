@@ -224,7 +224,7 @@ public class WithdrawResponseDto {
 
   public WithdrawResponseDto addSendmanyItem(String sendmanyItem) {
     if (this.sendmany == null) {
-      this.sendmany = new ArrayList<String>();
+      this.sendmany = new ArrayList<>();
     }
     this.sendmany.add(sendmanyItem);
     return this;
@@ -322,7 +322,7 @@ public class WithdrawResponseDto {
 
   public WithdrawResponseDto addTxIdItem(String txIdItem) {
     if (this.txId == null) {
-      this.txId = new ArrayList<String>();
+      this.txId = new ArrayList<>();
     }
     this.txId.add(txIdItem);
     return this;

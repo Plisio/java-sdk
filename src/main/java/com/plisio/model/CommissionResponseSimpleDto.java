@@ -253,7 +253,7 @@ public class CommissionResponseSimpleDto {
 
   public CommissionResponseSimpleDto addCustomItem(FeePlanCustomDto customItem) {
     if (this.custom == null) {
-      this.custom = new ArrayList<FeePlanCustomDto>();
+      this.custom = new ArrayList<>();
     }
     this.custom.add(customItem);
     return this;
@@ -279,7 +279,7 @@ public class CommissionResponseSimpleDto {
 
   public CommissionResponseSimpleDto addErrorsItem(CommissionResponseSimpleErrorDto errorsItem) {
     if (this.errors == null) {
-      this.errors = new ArrayList<CommissionResponseSimpleErrorDto>();
+      this.errors = new ArrayList<>();
     }
     this.errors.add(errorsItem);
     return this;

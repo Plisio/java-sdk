@@ -36,7 +36,7 @@ public class CryptocurrencyApiResponseDto extends SuccessResponseDto {
 
   public CryptocurrencyApiResponseDto addDataItem(PaysysDto dataItem) {
     if (this.data == null) {
-      this.data = new ArrayList<PaysysDto>();
+      this.data = new ArrayList<>();
     }
     this.data.add(dataItem);
     return this;

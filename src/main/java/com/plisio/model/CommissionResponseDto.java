@@ -161,7 +161,7 @@ public class CommissionResponseDto {
 
   public CommissionResponseDto addPlansItem(FeePlanDto plansItem) {
     if (this.plans == null) {
-      this.plans = new ArrayList<FeePlanDto>();
+      this.plans = new ArrayList<>();
     }
     this.plans.add(plansItem);
     return this;
