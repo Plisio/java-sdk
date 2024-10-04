@@ -44,7 +44,7 @@ public class OperationsHateoasResponseDto extends SuccessResponseDto {
 
   public OperationsHateoasResponseDto addOperationsItem(OperationDto operationsItem) {
     if (this.operations == null) {
-      this.operations = new ArrayList<OperationDto>();
+      this.operations = new ArrayList<>();
     }
     this.operations.add(operationsItem);
     return this;

@@ -36,7 +36,7 @@ public class OperationsApiResponseDto extends SuccessResponseDto {
 
   public OperationsApiResponseDto addDataItem(OperationsHateoasResponseDto dataItem) {
     if (this.data == null) {
-      this.data = new ArrayList<OperationsHateoasResponseDto>();
+      this.data = new ArrayList<>();
     }
     this.data.add(dataItem);
     return this;
